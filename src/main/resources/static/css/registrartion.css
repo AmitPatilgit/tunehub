@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    align-content: center;
+}
+fieldset
+{
+	align-content: center;
+	margin: 80px;
+}
+legend
+{
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+form {
+    margin: 40px;
+    
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ff8040;
+    color: white;
+    padding: 14px 20px;
+    margin-top : 15px;
+    margin-left:35%;
+    margin-right:30px;
+    border: 50px ;
+    cursor: pointer;
+    width: 30%;
+    text-align:center;
+    justify-content: center;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}

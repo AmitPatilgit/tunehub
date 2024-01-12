@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+<link rel="stylesheet" th:href="@{/css/registrartion.css}">
+</head>
+<body>
+<fieldset>
+<legend>User Registration</legend>
+	<form action="register" method="post">
+		<label> User name :</label>
+		<input type="text" name="username" />
+		<br>
+		<label> Email :</label>
+		<input type="email" name="email" />
+		<br>
+		<label> PassWord :</label>
+		<input type="password" name="password" />
+		<br><br>
+		<label>Gender :</label>
+		Male<input type="radio" name="gender" value="male" />
+		Female<input type="radio" name="gender" value="female" />
+		Others<input type="radio" name="gender" value="others" />
+		<br><br>
+		
+		<label>Role :</label>
+		<select name="role">
+			<option value="Admin">Admin</option>
+			<option value="Customer">Customer</option>
+		</select>
+		<br><br>
+		<label>Address :</label>
+		<textarea name="address"></textarea>
+		<br><br>
+		<input type="submit" value="REGISTER" />
+	</form>
+	</fieldset>
+</body>
+</html>

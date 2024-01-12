@@ -1,0 +1,25 @@
+body {
+	align-content: center;
+}
+
+fieldset {
+	background-color: yellow;
+	border-radius: 20px;
+	margin: 30px;
+	width: 30%;
+	height: 50%;
+	text-align: center;
+	justify-content: center;
+}
+
+legend {
+	background-color: gray;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+input {
+	margin: 5px;
+}
+
